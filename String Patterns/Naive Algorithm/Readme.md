@@ -6,3 +6,5 @@ that prints all occurrences of pat[] in txt[]. You may assume that n > m.
 <b>Solution:</b>
 
 Slide the pattern over text one by one and check for a match. If a match is found, then slides by 1 again to check for subsequent matches.
+
+The worst case complexity of the Naive algorithm is O(m(n-m+1))
